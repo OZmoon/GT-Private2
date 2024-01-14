@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+      <FILENAME>protocol.c</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'commandSizes'.</DESCRIPTION>
+    <FUNCTION>enet_protocol_command_size</FUNCTION>
+    <DECORATED>enet_protocol_command_size</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'commandSizes[15]', (readable range is 0 to 12)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+      <FILENAME>protocol.c</FILENAME>
+      <LINE>1445</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'commandSizes'.</DESCRIPTION>
+    <FUNCTION>enet_protocol_check_outgoing_commands</FUNCTION>
+    <DECORATED>enet_protocol_check_outgoing_commands</DECORATED>
+    <FUNCLINE>1387</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1389</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1390</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1391</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1392</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1393</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1394</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1395</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1396</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1396</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1396</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1398</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1400</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1402</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1404</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\McDev\Downloads\GTOS FIXED\project_files\enet\</FILEPATH>
+        <FILENAME>protocol.c</FILENAME>
+        <LINE>1445</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'commandSizes[15]', (readable range is 0 to 12)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
