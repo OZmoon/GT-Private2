@@ -5,7 +5,7 @@ So I decided to make it public here. Because I am the owner or who create this p
 ## How to use/build? 
 Same way with other Private Server Just watch on YT Tutorial 
 - Make sure that Visual Studio Community is installed
-- If you're looking for [FULL SOURCE CODE](https://github.com/OZmoon/GT-Private2/releases/tag/GTOS) File
+- If you're looking for [FULL SOURCE CODE](https://github.com/OZmoon/GT-Private2/releases/tag/v1.0.0) File
 
 ## Conclusion
 - This project not same as the original, i don't care about the issue or bug. i just want to make it public
